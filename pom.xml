@@ -30,6 +30,19 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
+
+	   <repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://54.167.112.42:8081/repository/TT-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://54.167.112.42:8081/repository/TT-snapshot/</url>
+	    </snapshotRepository>
+	    
   </distributionManagement>
 
   <build>
